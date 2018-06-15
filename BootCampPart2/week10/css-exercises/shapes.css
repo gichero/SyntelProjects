@@ -1,0 +1,109 @@
+
+body{
+  
+  background-color: lightgreen;
+  
+}
+#circle-shape{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.outer-circle {
+  position: relative;
+	width: 500px;
+	height: 500px;
+	background: black;
+  border-radius: 50%; 
+}
+.inner-circle1 {
+  position: absolute;
+	background: red;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	  
+}
+.inner-circle2 {
+  position: absolute;
+	background: green;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle3 {
+  position: absolute;
+	background: blue;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle4 {
+  position: absolute;
+	background:yellow;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle5 {
+  position: absolute;
+	background: purple;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle6 {
+  position: absolute;
+	background: darkcyan;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle7 {
+  position: absolute;
+	background: deeppink;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle8 {
+  position: absolute;
+	background: lawngreen;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle9 {
+  position: absolute;
+	background: saddlebrown;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}
+.inner-circle10 {
+  position: absolute;
+	background: blueviolet;
+  border-radius: 50%;
+  right: 20px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;	 
+}

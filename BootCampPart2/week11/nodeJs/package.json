@@ -1,0 +1,14 @@
+{
+  "name": "node101",
+  "version": "1.0.0",
+  "description": "training",
+  "main": "node101.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p2": "^0.7.1"
+  }
+}

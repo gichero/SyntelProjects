@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  text-align: center;
+  margin: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+.top{
+  float: right;
+  flex-direction: row;
+}
+
+.google {
+    /*display: block;*/
+    /*margin:auto;*/
+    /*position: absolute;*/
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    left: 50%;
+    /*margin-right: 50%;*/
+
+    /*transform: translate(-50%, -50%) }*/
+}
+
+input {
+    
+    height: 70;
+    background-size: 1.2em;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+   
+
+}
+
+button {
+        /*width: 150px;*/
+        font-size: 0.8em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #EFFAF3;
+        border: 1px solid #EFFAF3;
+        /*font-family: 'Open Sans', sans-serif;
+        margin-top: 25px;
+        margin-bottom: 45px;
+        diplay: block;
+        height: 10px;
+        color: #f0f0f0;*/
+}
+
+.height {
+    height: 25px;
+    width: 700px;
+    margin-top: 20px;
+    margin: auto;
+    }
+
+.logo {
+    background-size: 2em;
+    max-width: 10%;
+    height: 20px;
+    width: 15px;
+    margin-left: 430px;
+    margin-bottom: 350px;
+}
+

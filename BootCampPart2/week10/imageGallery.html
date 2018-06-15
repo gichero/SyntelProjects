@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Image Gallery</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .thumb{
+        width: 15%;
+        margin: 10px;
+      }
+      #gallery-wrapper{
+        text-align: center;
+      }
+      img{
+        width: 1000px
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+
+    </style>
+    <!-- A wrapper for the entire Gallery
+    A div helps us organize the layout of our page -->
+    <div id="gallery-wrapper">
+      <div id="top-section">
+        <h1>
+          A photo gallerymade with HTML, JS and CSS. 
+        </h1>
+      </div>
+      <div id="middle-section">
+        
+        <img class="thumb" src=./ga_pics/arabia_mnt.jpg onClick="bigPic.src = this.src" />
+        <img class="thumb" src=./ga_pics/callaway_gardens.jpg />
+        <img class="thumb" src=./ga_pics/Etowah_Indian_Mounds.jpg />
+        <img class="thumb" src=./ga_pics/prov_state_canyon.jpg />
+        <img class="thumb" src=./ga_pics/wormsloe.jpg />
+       <div>
+         <div id="bottom-section">
+            <img src=./ga_pics/prov_state_canyon.jpg name="bigPic" />
+         </div>
+   
+     </div> 
+      
+  </body>
+
+</html>

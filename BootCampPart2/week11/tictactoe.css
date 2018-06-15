@@ -1,0 +1,25 @@
+
+h1{
+  color: #00FF00;
+}
+#board{
+  max-width: 640px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.square{
+  background-color: blueviolet;
+  border: 2px solid;
+  width: 185px;
+  height: 185px;
+  font-size: 60px;
+}
+.square:hover{
+  background-color: #fff;
+}
+
+.winning-square{
+  background-color: red;
+  color: #0000FF;
+}

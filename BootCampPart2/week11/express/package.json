@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "1.0.1",
+  "description": "express-hello-word",
+  "main": "expressTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "author": "Amos Gichero",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
